@@ -11,4 +11,8 @@ ex. PS C:\xampp\htdocs\DB2>
 PS C:\xampp\htdocs\DB2> cd database
 PS C:\xampp\htdocs\DB2\database> php seed.php
 
+[NOTE] :
+- scripts/data are just for testing the database if its working so if u want to test your website already just remove the references of the scripts/data in the seed.php
+
+
 
