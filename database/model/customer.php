@@ -15,5 +15,4 @@ createTable($con, 'customer', "
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )
 ");
-
 ?>

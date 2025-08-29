@@ -10,7 +10,7 @@ createTable($con, 'order_detail', "
         product_id INT NOT NULL,
         quantity INT NOT NULL,
         price_each DECIMAL(10,2) NOT NULL,
-        FOREIGN KEY (order_id) REFERENCES `order`(order_id) ON DELETE CASCADE,
+        FOREIGN KEY (order_id) REFERENCES `orders`(order_id) ON DELETE CASCADE,
         FOREIGN KEY (product_id) REFERENCES product(product_id) ON DELETE CASCADE
     )
 ");
